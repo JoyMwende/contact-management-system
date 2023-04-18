@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 30px;
+}
+.nav a {
+    text-decoration: none;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.nav a:hover {
+  color: dodgerblue;
+  font-size: 22px;
+}
+
+/* index.php */
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 246, 242);
+  height: 100vh;
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: lightgray;
+}
+.home-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 200px 0 0 50px;
+}
+.left p {
+  font-size: 23px;
+  line-height: 25px;
+}
+.left button {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  width: 350px;
+  height: 45px;
+  border: hidden;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.right img {
+  width: 600px;
+  height: 500px;
+}
+
+/*create.php*/
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.form-content form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  gap: 10px;
+  padding: 20px 0 20px 100px;
+}
+.form-content label {
+  display: flex;
+  align-items: flex-start;
+  font-size: 20px;
+}
+.form-content input {
+  width: 60%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.form-content button {
+  background-color: dodgerblue;
+  cursor: pointer;
+  border: hidden;
+  border-radius: 15px;
+  height: 45px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 18px;
+}
+.form-content button:hover {
+  color: white;
+}
+
+
