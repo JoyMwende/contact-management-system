@@ -12,11 +12,9 @@
     <?php
         require "connect.php";
           $id = $_GET['id'];
-            echo $id;
 
         if(ISSET($_GET['id'])){
             $id = $_GET['id'];
-            echo $id;
 
             //check if data exists
             $response = mysqli_query($con, "SELECT * FROM contact WHERE id = '$id'");
